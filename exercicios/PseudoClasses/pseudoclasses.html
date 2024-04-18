@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=li, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+
+
+
+/*SELETORES ESPECIAS
+            #       = ID
+            .       = class
+            :       = pesudo-class
+            ::      = pseudo-element
+            >       = filho
+*/
+            
+    body{font-family: Arial, Helvetica, sans-serif;}
+
+    a{
+        color: brown;
+    }
+    a:visited{ /*visitar o site*/
+        color: red; /* se for visitado muda a cor*/
+    }
+    a:hover{ /*Passar o mouse por cima*/
+        color: black;
+        text-decoration: underline; /*tirar o sublinhado*/
+        font-weight: bold; /*negrito*/
+    }
+    a:active{
+        color: yellow
+    }
+
+    a::before{
+       content:"♣"
+    }
+
+    a::after{ /*oque vai aparecer depois */
+        content: "★";
+    }
+
+    .especial::before{
+        content: "♚";
+    }
+
+    .especial::after{
+        content: "☯";
+    }
+
+    .especial{
+        background-color: aquamarine;
+    }
+</style>
+<body>
+    <ul>
+        <li> <a href="https://github.com/MatheuspSuave"target="_blank">GitHub</a></li>
+        <li><a href="https://www.youtube.com/" class="especial" target="_blank">Youtube</a></li>
+        <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+    </ul>
+</body>
+</html>
