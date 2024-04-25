@@ -1,0 +1,226 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+}
+
+#interface {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    padding: 40px 4%;
+}
+
+#um {
+    color: #5c5c5c80;
+    padding: 50px;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+ul {
+    display: inline-block;
+    justify-content: space-between;
+    margin-top: -50px;
+}
+
+li {
+    display: inline-block;
+}
+
+#um:hover {
+    transform: scale(1.15);
+    color: #fff;
+}
+
+#button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #00FF08;
+    border-radius: 30px;
+    border: 0;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-bottom: -30px;
+}
+
+#btn-contatoum {
+    margin-top: 14px;
+}
+
+#img {
+    height: 120px;
+    width: 120px;
+}
+
+#button:hover {
+    transform: scale(1.15);
+    box-shadow: 0px 0px 8px green;
+}
+
+#flex {
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 90px;
+    display: flex;
+}
+
+#btn {
+    margin: 40px 0px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #00FF08;
+    border-radius: 30px;
+    border: 0;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 200px;
+    height: 60px;
+}
+
+#btn:hover {
+    transform: scale(1.15);
+    box-shadow: 0px 0px 8px green;
+}
+
+#imgum {
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+    height: 500px;
+}
+
+@keyframes flutuar {
+    0% {
+        top: 0px;
+    }
+    100% {
+        top: 20px;
+    }
+}
+
+#h1 {
+    color: white;
+    text-align: center;
+}
+
+#seçao {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+#h1 {
+    color: #00FF08;
+    text-align: center;
+    padding: 50px;
+    font-size: 32px;
+    font-size: 38px;
+}
+
+#Especialidades {
+    color: white;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#Especialidades > div {
+    flex: 1 1 45%; 
+}
+
+#Especialidades img {
+    width: 200px;
+    height: 200px;
+    
+}
+
+#Especialidades h1 {
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+#txt-topo-site {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#span{
+    color: #00FF08;
+}
+
+#formulario{
+    padding: 80px 4%;
+}
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 20px 15px;
+    border-radius: 25px;
+    color: black;
+    font-size: 16px;
+    height: 80px;
+    outline: 0;
+}
+
+textarea{
+    width: 100%;
+    height: 200px;
+    padding: 20px 15px;
+    border-radius: 25px;
+    color: black;
+    font-size: 16px;
+    outline: 0;
+}
+#h2{
+    text-align: center;
+    color: #fff;
+    font-size: 38px;
+    padding: 10px;
+}
+
+#texte {
+    background-color: #00FF08;
+    width: 150px;
+    text-align: center;
+    margin: 0 auto; 
+    box-shadow: 1px 1px 10px #00FF08;
+}
+
+footer{
+    background-color: #4dd151;
+}
+#div{
+    display: flex;
+    justify-content: center;
+}
+#imgcinco{
+    height: 40px;
+    width: 70px;
+}
