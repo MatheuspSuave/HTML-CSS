@@ -17,6 +17,7 @@
   body{
     margin: 5px 250px;
     overflow: hidden;
+    
 }
   a {
     text-decoration: none;
@@ -115,7 +116,7 @@ main #mainesquedo #foto img{
 }
 
 #maindireito img{
-    height: 780px;
+    height: 600px;
     width: 600px;
     padding-top: 80px;
     padding-right: 20px;
@@ -160,4 +161,20 @@ main #mainesquedo #foto img{
 }
 span{
     padding: 30px;
+}
+
+footer {
+    display: flex;
+    background-color: #14b02e73;
+    color: white;
+    padding: 10px;
+    align-items: center;
+    margin-top: -7%;
+    height: 50px;
+    justify-content: center;
+    font-size: 16px;
+}
+span{
+    text-decoration: underline;
+    color: blue;
 }
