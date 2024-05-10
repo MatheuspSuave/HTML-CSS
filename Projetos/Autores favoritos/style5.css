@@ -1,0 +1,71 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#imgum, #imgdois, #imgtres, #imgquatro {
+    width: 50%;
+    height: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+#imgum {
+    background-image: url('https://miro.medium.com/v2/resize:fit:1024/0*38_yCPUTH0XpKTLY.jpg');
+}
+
+#imgdois {
+    background-image: url('https://i.pinimg.com/originals/e8/3d/91/e83d9126a04f6d971a1c13c06d1bc1e0.jpg');
+}
+
+#imgtres {
+    background-image: url('https://img.lovepik.com/bg/20240206/The-Tracing-the-Evolution-of-Diverse-Animals-Some-Brandishing-Sticks_3176763_wh860.jpg!/fw/860');
+}
+
+#imgquatro {
+    background-image: url('https://comoinvestir.thecap.com.br/medias/2020/11/como-renda-passiva-contribui-para-prosperidade.webp');
+}
+
+/* Estilos para as divs filhas */
+
+#div, #divdois, #divtres, #divquatro {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imgum img, #imgdois img, #imgtres img, #imgquatro img {
+    height: 100px;
+    width: auto;
+    border-radius: 50%;
+    transition: transform 1.0s;
+}
+
+#imgum img:hover {
+    transform: scale(1.5);
+}
+
+#imgdois img:hover {
+    transform: scale(1.5);
+}
+
+#imgtres img:hover {
+    transform: scale(1.5);
+}
+
+#imgquatro img:hover {
+    transform: scale(1.5);
+}
