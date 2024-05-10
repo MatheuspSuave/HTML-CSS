@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+header{
+    padding-top: 20px;
+    padding-left: 150px;
+    padding-right:150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+    max-width: 2000px;
+    background-color:black
+    
+}
+#socorro{
+    font-family: "Playfair Display", serif;
+}
+#p{
+    font-family: "Open Sans", sans-serif;
+}
+#logo img{
+    height: 100px;
+    width: 200px;
+}
+
+#carrinho #menorum{
+    height: 120px;
+    width: 120px;
+}
+
+#a a{
+    color:white;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 20px;
+    font-family: "Playfair Display", serif;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 2000px;
+    height: 70vh;
+    background-color:darkgray;
+    max-height: 800px;
+    min-height: 800px;
+   
+}
+
+#txset{
+    background-color: rgba(43, 37, 37, 0.400);
+    color: black;
+    font-family: "Playfair Display", serif;
+    }
+#gsdfgdfgsd{
+    background-color: rgba(43, 37, 37, 0.840);
+    font-family: "Playfair Display", serif;
+}
+#h1{
+    max-width: 650px;
+    margin-left: 15%;
+}
+#h1 h1{
+    padding: 15px;
+}
+
+#img{
+    margin-right: 15%;
+}
+#img img{
+height: 520px;
+width: 420px;}
+
+#p{
+    font-size: 18px;
+    padding: 30px;
+}
+#btn{
+    height: 50px;
+    width: 250px;
+    border-radius: 200px;
+    color: white;
+    background-color: black;
+    font-size: 22px;
+    transition: transform 1.0s;
+}
+
+#btn:hover{
+    transform: scale(1.25);
+}
+span{
+    padding-left: 5%;
+}
+
+#section{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    max-width: 2000px;
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-top: 30px;
+    background-color: rgb(43, 37, 37)
+}
+#div{
+    height: 400px;
+    width: 350px;
+}
+#div img{
+    height: 350px;
+    width: 250px;
+}
+#divimg img{
+        height: 520px;
+        width: 420px;
+}
+
+h1{
+    
+    text-align: center;
+    background-color: ; 
+}
+#h1{
+    text-align: center;
+    background-color: ; 
+}
+
+#livros{
+    padding-top: 30px;
+    padding-right: 150px;
+    padding-left: 150px;
+    background-color: rgb(80, 70, 70);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#livros img{
+    height: 400px;
+    width: 250px;
+}
+
+#livros h1{
+    flex-direction: column;
+    text-decoration: underline;
+}
+
+
+#mais_vendidos{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    max-width: 1700px;
+    padding-left: 350px;
+    padding-top: 50px;
+    padding-right: 350px;
+    background-color: rgb(80, 70, 70);
+}
+#divum{
+    font-size: 32px;
+    padding: 20px;
+}
+
+#divdois{
+    padding: 20px;
+    max-width: 700px;
+    font-size: 18px;
+}
+#gsdfgdfgsd{
+    font-size: 42px;
+
+}
+
+
+#a #home:hover{
+    transform: scale(1.55);
+    background: linear-gradient(to bottom, #000000, #FF69B4, #008000, #800080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+    
+    #a #Joe{
+        display: inline-block;  
+        transition: transform 0.7s;
+    }
+    
+    
+    #a #Joe:hover{
+        transform: scale(1.55);
+        color:  dimgray;
+    
+    }
+    
+    #a #Colleen{
+        display: inline-block;  
+        transition: transform 0.7s;
+    }
+    
+    #a #Colleen:hover{
+        transform: scale(1.55);
+        color: #eb79b5;
+    }
+    
+    #a #Yuval{
+        display: inline-block;  
+        transition: transform 0.7s;
+    }
+    
+    #a #Yuval:hover{
+        transform: scale(1.55);
+        background: linear-gradient(to bottom, #008000, #A52A2A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+       
+    }
+    #a #Pablo{
+        display: inline-block;  
+        transition: transform 0.7s;
+    }
+    
+    #a #Pablo:hover{
+        transform: scale(1.55);
+        background: linear-gradient(to bottom, #000022, #330066, #660099, #330066, #000022);
+        -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+footer{
+    text-align: center;
+    background-color: rgb(26, 23, 23);
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  
